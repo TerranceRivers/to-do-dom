@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List Manager</title>
+</head>
+
+<body>
+    <h1>To-Do List Manager</h1>
+    <hr>
+    <h3>Create a to-do item</h3>
+    <form>
+        <label>
+            Name:
+            <input type="text" id="newItem" required>
+        </label>
+        <br>
+        <button type="submit">Add</button>
+    </form>
+    <hr>
+    <h3>To-Do Items</h3>
+    <ul id="incompleteItems"></ul>
+    <hr>
+    <h3>Completed Items</h3>
+    <ul id="completedItems"></ul>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
